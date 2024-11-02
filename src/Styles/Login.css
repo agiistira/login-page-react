@@ -1,0 +1,47 @@
+.formPage {
+  margin-top: 100px;
+  height: "100vh";
+}
+
+.content {
+  background-image: url("../assets/form-bg.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+
+form {
+  border: solid;
+  border-radius: 40px;
+  padding: 50px;
+  padding-top: 100px;
+  border-color: #c6c1c1;
+  width: 469px;
+  height: 594px;
+  background-color: white;
+}
+
+.tittle {
+  padding-top: 30px;
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+}
+
+button {
+  align-items: center;
+  width: 365px;
+  height: 51px;
+}
+
+button p {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.license {
+  padding-top: 20px;
+  text-align: center;
+  opacity: 20%;
+}
