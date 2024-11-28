@@ -23,6 +23,9 @@ function NavigationBar() {
             <Nav.Link as={Link} to="/homepage">
               Test Home
             </Nav.Link>
+            <Nav.Link as={Link} to="/logout">
+              Logout
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

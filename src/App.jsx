@@ -9,6 +9,7 @@ import Login from "./Pages/Login";
 import Layout from "./Components/Layout";
 import "./App.css";
 import Homepage from "./Pages/Homepage";
+import Logout from "./Pages/Logout";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/product" element={<Product />} />
           <Route path="/homepage" element={<Homepage />} />
+          <Route path="/logout" element={<Logout />} />
         </Route>
         <Route path="/login-page" element={<Login />} />
       </Routes>
