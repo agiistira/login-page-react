@@ -7,6 +7,7 @@ import Product from "./Pages/Product";
 import Footer from "./Components/Footer";
 import Login from "./Pages/Login";
 import Layout from "./Components/Layout";
+import Profile from "./Pages/Profile";
 import "./App.css";
 import Homepage from "./Pages/Homepage";
 import Logout from "./Pages/Logout";
@@ -22,6 +23,7 @@ function App() {
           <Route path="/product" element={<Product />} />
           <Route path="/homepage" element={<Homepage />} />
           <Route path="/logout" element={<Logout />} />
+          <Route path="/profile" element={<Profile />} />
         </Route>
         <Route path="/login-page" element={<Login />} />
       </Routes>
