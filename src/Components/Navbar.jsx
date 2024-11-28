@@ -20,6 +20,9 @@ function NavigationBar() {
             <Nav.Link as={Link} to="/product">
               Product
             </Nav.Link>
+            <Nav.Link as={Link} to="/homepage">
+              Test Home
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
